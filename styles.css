@@ -1,28 +1,30 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;    
-}
 
-.bgimg {
-    text-align: right;
+
+img {
+    height: auto; max-width:100%; margin-left:520px
 }
 
 .invisiblebox {
-    margin-top: 500px;
-    margin-bottom: 300px;
+    margin-top: 540px;
+   
 }
 
+ul {
+    list-style-type:square;
+    max-width: 35%;
+    transform: translate(70%,0%);
+}
 
 .content {
+
     position: absolute;
-    top: 20%;
-    margin-top: 235px;
-    left: 50%;
+    top: 20.7%;
+    margin-top: 175px;
+    left: 810px;
     transform: translate(-95%, -50%);
     background-color: rgba(255, 255, 255, 0.95); /* opacity */
-    padding: 20px;
-    border-radius: 10px;
+
+    border-radius: 12px;
     width: 80%; 
     max-width: 800px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* shadow  */
